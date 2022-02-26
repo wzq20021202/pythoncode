@@ -21,13 +21,13 @@ if __name__ == '__main__':
     cstr1 = "aaghdjfbnaaab"
     s = SqString()
     s.StrAssign(cstr1)
-    print("s: ", end='');
+    print("s: ", end='')
     s.DispStr()
 
     cstr2 = "aanjdgfuhfab"
     t = SqString()
     t.StrAssign(cstr2)
-    print("t: ", end='');
+    print("t: ", end='')
     t.DispStr()
 
     print("BF: %d" % (BF(s, t)))
